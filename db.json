@@ -60,16 +60,22 @@
   ],
   "history": [
     {
-      "date": "2022-06-22T07:25:43.511Z",
+      "date": "2016-06-22T07:25:43.511Z",
       "person": "Captain America",
       "item": "I'm just a kid from Brooklyn",
       "cupidId": 1
     },
     {
-      "date": "2022-05-10T09:00:10.123Z",
+      "date": "2008-05-10T09:00:10.123Z",
       "person": "Tony Stark",
       "item": "If we can't protect the Earth, you can be damn well sure we'll avenge it!",
       "cupidId": 1
+    },
+    {
+      "date": "2012-06-22T07:25:43.511Z",
+      "person": "Thor",
+      "item": "You people are so petty, and tiny.",
+      "cupidId": 29
     }
   ],
   "children" : [
