@@ -1,0 +1,33 @@
+{
+  "cupid": [
+    {
+      "id" : 1,
+      "name": "BT",
+      "cupid": "001",
+      "shortName": "BT",
+      "lastUpdated": "datetime",
+      "flags": {
+        "portingPartner": true,
+        "hostingPartner":  false,
+        "gamma": false
+      }
+    },
+    {
+      "id" : 5,
+      "name": "KCOM Group Limited",
+      "cupid": "005",
+      "shortName": "KCOM",
+      "lastUpdated": "datetime",
+      "franchiseArea" : "(Kingston -upon-Hull)",
+      "flags": {
+        "portingPartner": false,
+        "hostingPartner":  false,
+        "gamma": false
+      },
+      "parent" : {
+         "name" : "Verizon UK Limited",
+         "cupid" : "025"
+      }
+    }
+  ]
+}
