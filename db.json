@@ -1,33 +1,50 @@
 {
   "cupid": [
     {
-      "id" : 1,
+      "id": 1,
       "name": "BT",
       "cupid": "001",
       "shortName": "BT",
-      "lastUpdated": "2012-04-23T18:25:43.511Z",
+      "lastUpdated": "datetime",
       "flags": {
         "portingPartner": true,
-        "hostingPartner":  false,
+        "hostingPartner": false,
         "gamma": false
       }
     },
     {
-      "id" : 5,
+      "id": 5,
       "name": "KCOM Group Limited",
       "cupid": "005",
       "shortName": "KCOM",
-      "lastUpdated": "2018-12-10T13:49:51.141Z",
-      "franchiseArea" : "(Kingston -upon-Hull)",
+      "lastUpdated": "datetime",
+      "franchiseArea": "(Kingston -upon-Hull)",
       "flags": {
         "portingPartner": false,
-        "hostingPartner":  false,
+        "hostingPartner": false,
         "gamma": false
       },
-      "parent" : {
-         "name" : "Verizon UK Limited",
-         "cupid" : "025"
+      "parent": {
+        "name": "Verizon UK Limited",
+        "cupid": "025"
       }
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "date": "datetime",
+          "person": "string",
+          "item": "string"
+        },
+        {
+          "date": "datetime",
+          "person": "string",
+          "item": "string"
+        }
+      ]
     }
   ]
 }
