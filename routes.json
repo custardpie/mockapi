@@ -1,4 +1,4 @@
 {
-    "/cupid/:id/history" : "/history/:id",
+    "/cupid/:id/history" : "/history/:id/items",
     "/cupid/:id/children" : "children/:id"
 }
