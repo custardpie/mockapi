@@ -5,7 +5,7 @@
       "name": "BT",
       "cupid": "001",
       "shortName": "BT",
-      "lastUpdated": "datetime",
+      "lastUpdated": "2012-04-23T18:25:43.511Z",
       "flags": {
         "portingPartner": true,
         "hostingPartner":  false,
@@ -17,7 +17,7 @@
       "name": "KCOM Group Limited",
       "cupid": "005",
       "shortName": "KCOM",
-      "lastUpdated": "datetime",
+      "lastUpdated": "2018-12-10T13:49:51.141Z",
       "franchiseArea" : "(Kingston -upon-Hull)",
       "flags": {
         "portingPartner": false,
