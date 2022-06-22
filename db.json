@@ -25,25 +25,64 @@
         "gamma": false
       },
       "parent": {
-        "name": "Verizon UK Limited",
-        "cupid": "025"
+        "name": "KCOM Group Limited",
+        "cupid": "029"
+      }
+    },
+    {
+      "id": 29,
+      "name": "KCOM Group Limited",
+      "cupid": "029",
+      "shortName": "Affin",
+      "lastUpdated": "2012-04-23T18:25:43.511Z",
+      "flags": {
+        "portingPartner": true,
+        "hostingPartner": false,
+        "gamma": false
+      }
+    },
+    {
+      "id": 223,
+      "name": "KCOM Group Limited",
+      "cupid": "005",
+      "shortName": "KCOM",
+      "lastUpdated": "2012-04-23T18:25:43.511Z",
+      "flags": {
+        "portingPartner": false,
+        "hostingPartner": false,
+        "gamma": false
+      },
+      "parent": {
+        "name": "KCOM Group Limited",
+        "cupid": "029"
       }
     }
   ],
   "history": [
     {
-      "id": 1,
       "date": "2022-06-22T07:25:43.511Z",
       "person": "Rebecca De Las Heras",
       "item": "Porting Agreement Enabled",
       "cupidId": 1
     },
     {
-      "id": 1,
       "date": "2022-05-10T09:00:10.123Z",
       "person": "Ofcom Data Loader",
       "item": "(066) Vodafone Ltd (Energis) loaded into the system",
       "cupidId": 1
+    }
+  ],
+  "children" : [
+    {
+      "name" : "KCOM Group Limited",
+      "cupid" : "005",
+      "franchiseArea" : "(Kingston -upon-Hull)",
+      "cupidId": 29
+    },
+    {
+      "name" : "KCOM Group Limited",
+      "cupid" : "223",
+      "cupidId": 29
     }
   ]
 }
