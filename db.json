@@ -58,6 +58,79 @@
       }
     }
   ],
+  "range": [
+    {
+        "id": 1,
+        "numberBlock": "113111",
+        "status" : "Allocated",
+        "numberLength" : {
+            "format" : "(0)+10",
+            "telnumLength": 10,
+            "areaCodeLength": 0
+        },
+        "blockSize": 10000,
+        "allocationDate": "2001-01-06",
+        "rangeHolder" : {
+            "name" : "BT",
+            "cupid" : "001"
+        },
+        "lastUpdated": "2018-12-10T13:49:51Z"
+      },
+      {
+        "id": 2,
+        "numberBlock": "1190",
+        "status" : "Protected",
+        "numberLength" : {
+            "format" : "4+6",
+            "telnumLength": 10,
+            "areaCodeLength": 4
+        },
+        "blockSize": 10000,
+        "lastUpdated": "2022-03-01T14:43:19Z"
+      },
+      {
+        "id": 3,
+        "numberBlock": "1254376",
+        "status" : "Allocated",
+        "numberLength" : {
+            "format" : "4+6",
+            "telnumLength": 10,
+            "areaCodeLength": 4
+        },
+        "blockSize": 1000,
+        "allocationDate": "2008-10-23",
+        "rangeHolder" : {
+            "name" : "Served Up Limited",
+            "cupid" : "401"
+        },
+        "hostingProvider" : {
+            "name" : "Gamma Telecom Holdings Ltd",
+            "cupid" : "031"
+        },
+        "notes" : "Part of the journey is the end.",
+        "lastUpdated": "2022-08-19T14:40:30Z"
+      },
+      {
+        "id": 4,
+        "numberBlock": "800002",
+        "status" : "Allocated",
+        "numberLength" : {
+            "format" : "10 digit numbers",
+            "telnumLength": 10,
+            "areaCodeLength": 4
+        },
+        "blockSize": 10000,
+        "allocationDate": "2005-04-27",
+        "rangeHolder" : {
+            "name" : "Daotec Ltd"
+        },
+        "hostingProvider" : {
+            "name" : "BT",
+            "cupid" : "001"
+        },
+        "lastUpdated": "2022-05-21T18:57:17Z"
+      },
+  ]
   "history": [
     {
       "date": "2016-06-22T07:25:43.511Z",
@@ -76,6 +149,18 @@
       "person": "Thor",
       "item": "You people are so petty, and tiny.",
       "cupidId": 29
+    },
+    {
+        "date": "2014-04-07T05:00:40.511Z",
+        "person": "Groot",
+        "item": "We are groot.",
+        "rangeId": 1
+    },
+    {
+        "date": "2021-11-09T16:46:58Z",
+        "person": "Tony Stark",
+        "item": "If You're Nothing Without The Suit, Then You Shouldn't Have It.",
+        "rangeId": 3
     }
   ],
   "children" : [
