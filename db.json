@@ -42,6 +42,18 @@
       }
     },
     {
+      "id": 31,
+      "name": "Gamma Telecom Holdings Ltd",
+      "cupid": "031",
+      "shortName": "Gamma",
+      "lastUpdated": "2012-04-23T18:25:43.511Z",
+      "flags": {
+        "portingPartner": false,
+        "hostingPartner": false,
+        "gamma": true
+      }
+    },
+    {
       "id": 223,
       "name": "KCOM Group Limited",
       "cupid": "223",
@@ -56,6 +68,18 @@
         "name": "KCOM Group Limited",
         "cupid": "029"
       }
+    },
+    {
+      "id": 401,
+      "name": "Served Up Limited",
+      "cupid": "401",
+      "shortName": "Serve",
+      "lastUpdated": "2012-04-23T18:25:43.511Z",
+      "flags": {
+        "portingPartner": false,
+        "hostingPartner": true,
+        "gamma": false
+      }
     }
   ],
   "range": [
@@ -66,13 +90,14 @@
         "numberLength" : {
             "format" : "(0)+10",
             "telnumLength": 10,
-            "areaCodeLength": 0
+            "areaCodeLength": 6
         },
         "blockSize": 10000,
         "allocationDate": "2001-01-06",
         "rangeHolder" : {
             "name" : "BT",
-            "cupid" : "001"
+            "cupid" : "001",
+            "self" : "https://my-json-server.typicode.com/custardpie/mockapi/cupid/1"
         },
         "lastUpdated": "2018-12-10T13:49:51Z"
     },
@@ -101,11 +126,13 @@
         "allocationDate": "2008-10-23",
         "rangeHolder" : {
             "name" : "Served Up Limited",
-            "cupid" : "401"
+            "cupid" : "401",
+            "self" : "https://my-json-server.typicode.com/custardpie/mockapi/cupid/401"
         },
         "hostingProvider" : {
             "name" : "Gamma Telecom Holdings Ltd",
-            "cupid" : "031"
+            "cupid" : "031",
+            "self" : "https://my-json-server.typicode.com/custardpie/mockapi/cupid/31"
         },
         "notes" : "Part of the journey is the end.",
         "lastUpdated": "2022-08-19T14:40:30Z"
@@ -126,7 +153,8 @@
         },
         "hostingProvider" : {
             "name" : "BT",
-            "cupid" : "001"
+            "cupid" : "001",
+            "self" : "https://my-json-server.typicode.com/custardpie/mockapi/cupid/1"
         },
         "lastUpdated": "2022-05-21T18:57:17Z"
     }
